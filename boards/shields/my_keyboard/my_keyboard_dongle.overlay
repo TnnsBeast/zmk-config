@@ -1,14 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <layouts/josefadamcik/sofle.dtsi>
 
-&physical_layout0 {
+&josefadamcik_sofle_layout {
     transform = <&default_transform>;
 };
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-	zmk,physical-layout = &physical_layout0;
+	zmk,physical-layout = &josefadamcik_sofle_layout;
     };
 
     mock_kscan: mock_kscan_0 {
